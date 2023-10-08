@@ -1,5 +1,5 @@
 package Pedidos_ex2;
-// o padrão de projeto Template se diferencia do padrão Decorator, pois o Decorator está relacionado a incrementar funcionalidades em classes, em quanto o Template implementa classes abstradas para implementar uma sequencia de passos
+// b) O padrão de projeto Template se diferencia do padrão Decorator, pois o Decorator está relacionado a incrementar funcionalidades em classes, em quanto o Template implementa classes abstradas para implementar uma sequencia de passos
 public class MainPedidos {
     public static void main(String[] args) {
         PedidosTemplate online = new PedidoOnline();
